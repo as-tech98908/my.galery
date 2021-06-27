@@ -1,0 +1,100 @@
+.NAV{
+	margin: 0px 0px 0px 0px;
+	/*border-bottom: 2px  solid;*/
+	background-color: #0055E2;
+}
+
+.NAV .icon{
+	width: 60px;
+    height: 60px;
+    display: inline-block;
+    margin: -10px 17px 0px 30px;
+}
+
+.header{
+	font-family: sans-serif;
+	color: #FFFFFF;
+	font-size: 25px;
+	margin: 0px 0px 0px 0px;
+	display: inline-flex;
+    margin: 20px 0px 0px 0px;
+}
+
+.GLY{
+	height: 45px;
+	font-size: 30px;
+	margin: 0px 420px 10px 10px;
+	border-right: 3px #FFFFFF solid;
+	padding: 0px 20px 0px 0px;
+
+}
+
+.NAV .header a{
+	margin: 5px 0px 0px 30px;
+	transition: transform .2s;
+}
+
+.NAV .header a:hover{
+	transform: scale(1.1);
+}
+
+.NAV .header
+
+.home{
+	padding: 0px 30px 0px 0px;
+	border-right: 3px #FFFFFF solid;
+	height: 35px;
+}
+
+.cate{
+	padding: 0px 30px 0px 0px;
+	border-right: 3px #FFFFFF solid;
+	height: 35px;
+}
+
+
+.AB{
+	padding: 0px 30px 0px 0px;
+	border-right: 3px #FFFFFF solid;
+	height: 35px;
+}
+
+/*----------------------------------------------------------------------*/
+
+.main{
+	position: relative;
+	height: 100%;
+	width: 98%;
+	margin: -35px 10px 0px 12px;
+}	
+
+.container{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  padding: 45px 0;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 2vh;
+  grid-auto-flow: dense;
+}	
+
+.container .img{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.main .container .img img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	transition: transform .2s;
+}
+
+.main .container .img img:hover{
+	filter: brightness(0.5);
+	transform: scale(1.1);
+}
